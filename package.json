@@ -1,0 +1,19 @@
+{
+  "name": "reactdemo",
+  "version": "1.0.0",
+  "description": "Demo Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "webpack"
+  },
+  "author": "Gowtham",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "superagent": "^3.8.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
